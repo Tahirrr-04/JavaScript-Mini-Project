@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Prata", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    background-color: #4D2B8C;
+    text-align: center;
+}
+
+h1 {
+    background-color: #85409D;
+    color: white;
+    padding: 0.8rem;
+}
+
+.moves {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.move{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.move:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+.msg-container{
+    margin-top: 5em;
+}
+
+.msg-container p{
+    background-color:#85409D;
+    display:inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+}
